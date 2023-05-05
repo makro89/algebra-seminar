@@ -4,6 +4,7 @@ import './App.css';
 import './Components/Messages';
 import Messages from './Components/Messages';
 import React from 'react';
+import Input from './Components/input';
 
 class App extends React.Component {
    randomName() {
@@ -32,14 +33,26 @@ class App extends React.Component {
       color: this.randomColor()
     }
   }
+  onSendMessage = (message) => {
+    const messages = this.state.messages
+    messages.push({
+      text: message,
+      member: this.state.member
+    })
+    this.setState({messages: messages})
+  }
 
 render(){
   return (
-    <div className="App">
+      <div className="App">
+      <div className="App-header">
+        <h1>My Chat App</h1>
+      </div>
     <Messages
       messages={this.state.messages}
       currentMember={this.state.member}
     />
+    <input inSendMessage={this.onSendMessage}/>
   </div>
   );
 }
