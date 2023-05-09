@@ -17,8 +17,8 @@ function randomColor() {
 }
 class Chat extends React.Component {
 
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.drone = new window.Scaledrone("PnFavtIMvMsf69yV", {
       data: this.state.member
     });
@@ -43,7 +43,7 @@ class Chat extends React.Component {
   state = {
     messages: [],
     member: {
-      username: randomName(),
+      username: this.props.username,
       color: randomColor()
     }
   }
@@ -65,7 +65,7 @@ class Chat extends React.Component {
       <div className="App">
       <div className="App-header">
         <button className='sidebar-btn' onClick={this.toggleSidebar}>Sidebar</button>
-        <h1>Algebra Seminarski Rad</h1>
+        <h1>{this.props.username}'s Chat Room</h1>
         {/* Prazan div služi za flex pozicioniranje elemenata */}
         <div></div>
       </div>
