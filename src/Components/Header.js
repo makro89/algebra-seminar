@@ -18,6 +18,7 @@ const Header = (props) =>{
     {/* Prazan div služi za flex pozicioniranje elemenata */}
     <div></div>
   </div>}
+  </>
     )
 }
 export default Header;
