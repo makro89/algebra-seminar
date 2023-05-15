@@ -17,8 +17,8 @@ handleLogin = (username) =>{
   render(){
     return    ( 
     <Routes>
-      <Route path="/" element={this.state.username ?<Chat username={this.state.username} /> : <Navigate to="/login" />}/>
-      <Route path="/login" element={<Login onLogin={this.handleLogin}/>} />
+      <Route path="/algebra-seminar/" element={this.state.username ?<Chat username={this.state.username} /> : <Navigate to="/algebra-seminar/login" />}/>
+      <Route path="/algebra-seminar/login" element={<Login onLogin={this.handleLogin}/>} />
     </Routes>
     )
   }
