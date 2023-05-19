@@ -3,7 +3,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import About from "./Components/About";
 import Chat from "./Components/Chat";
 import Header from "./Components/Header";
-import Login from "./Cnpomponents/Login";
+import Login from "./Components/Login";
 import Sidebar from "./Components/Sidebar";
 import "./App.css";
 
