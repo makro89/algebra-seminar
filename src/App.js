@@ -1,9 +1,9 @@
 import React from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import About from "./Components/About";
-import Chat from "./components/Chat";
+import Chat from "./Components/Chat";
 import Header from "./Components/Header";
-import Login from "./components/Login";
+import Login from "./Cnpomponents/Login";
 import Sidebar from "./Components/Sidebar";
 import "./App.css";
 
