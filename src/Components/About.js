@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./About.css";
-import appLogo from "../Components/Images/Juventus_logo";
+import appLogo from "../Components/Images/Juventus_logo.png";
 
 
 
@@ -11,7 +11,7 @@ import appLogo from "../Components/Images/Juventus_logo";
     <div className="container">
       <div className="row align-items-center my-5">
         <div className="asd">
-        <h1 className="font-weight-bold">Juventus</h1>
+        <h1 className="font-weight-bold">Svi već znaju, ali ako ima neki zalutali ovdje, da nauči!</h1>
                     <p>
 
                     Juventus F.C. iz Torina, poznatiji i kao Juve, najtrofejniji je i najpopularniji talijanski nogometni klub. "Stara dama" talijanskog nogometa (La vecchia Signora) klub je koji u Italiji ima preko 10 milijuna navijača, što je uvjerljivo najviše od svih talijanskih klubova jer Inter i Milan po broju navijača zajedno imaju koliko i Bianconeri. U svijetu Juve ima oko 170 milijuna navijača, iako neka istraživanja govore i o puno većoj brojki koja doseže i 200 milijuna, a veliki je broj Juventina na dalekom istoku, primjerice u Indoneziji ima oko 15 milijuna navijača Juventusa.

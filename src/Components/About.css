@@ -16,9 +16,9 @@ textarea {
   }
 
   p, h1{
-    color: #fff;
+    color: black;
   }
 
   h1, img{
-    text-align: center;
+    text-align: right;
   }
