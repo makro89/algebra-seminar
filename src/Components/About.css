@@ -1,0 +1,24 @@
+
+textarea {
+    width: 100%;
+   
+  }
+  label {
+    margin-right: 10px;
+    margin-bottom: 10px;
+   
+  }
+ 
+  
+  .appLogo {
+    height: 480px;
+    width: 343px;
+  }
+
+  p, h1{
+    color: #fff;
+  }
+
+  h1, img{
+    text-align: center;
+  }
